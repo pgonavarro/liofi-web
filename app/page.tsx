@@ -7,42 +7,52 @@ export default function Home() {
       <Navbar />
 
       {/* HERO */}
-      <section className="relative h-screen flex items-center justify-center text-center overflow-hidden">
+  <section className="relative h-screen overflow-hidden">
 
-        {/* Imagen de fondo */}
-        <div
-          className="absolute inset-0 bg-cover bg-center"
-          style={{
-            backgroundImage: "url('/hero-mango.jpg')",
-          }}
-        />
+  {/* Background image with zoom effect */}
+  <div className="absolute inset-0 scale-110">
+    <div
+      className="w-full h-full bg-cover bg-center"
+      style={{
+        backgroundImage: "url('/hero-mango.jpg')",
+      }}
+    />
+  </div>
 
-        {/* Overlay */}
-        <div className="absolute inset-0 bg-black/35" />
+  {/* Dark gradient overlay (key for premium feel) */}
+  <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/30 to-black/70" />
 
-        {/* Contenido */}
-        <div className="relative z-10 px-6 max-w-5xl">
+  {/* Content */}
+  <div className="relative z-10 h-full flex flex-col justify-center items-center text-center px-6">
 
-          <h1 className="text-6xl md:text-8xl font-semibold leading-tight text-white">
-            Fruta de México,
-            <br />
-            capturada en su mejor momento.
-          </h1>
+    {/* Small brand tag */}
+    <p className="tracking-[0.35em] text-white/70 uppercase text-xs mb-6">
+      LIOFI · MANGO DE MÉXICO
+    </p>
 
-          <p className="mt-8 text-lg md:text-xl text-white/90 max-w-2xl mx-auto">
-            Mango liofilizado en pequeños lotes para conservar sabor,
-            textura y nutrición.
-          </p>
+    {/* Main headline */}
+    <h1 className="text-white text-5xl md:text-7xl font-semibold leading-tight">
+      México capturado<br />
+      en su mejor momento
+    </h1>
 
-          <a
-            href="https://wa.me/5275020464?text=Hola%20quiero%20probar%20el%20mango%20liofilizado"
-            className="inline-flex items-center justify-center mt-10 rounded-full bg-white px-8 py-4 text-black font-medium transition hover:scale-105"
-          >
-            Comprar por WhatsApp
-          </a>
+    {/* Subtext */}
+    <p className="mt-6 text-white/80 max-w-xl text-lg">
+      Mango liofilizado en pequeños lotes.
+      Intensidad real, sin agua, sin distracciones.
+    </p>
 
-        </div>
-      </section>
+    {/* CTA */}
+    <a
+      href="https://wa.me/5275020464?text=Hola%20quiero%20probar%20Mango%20LIOFI"
+      className="mt-10 px-8 py-4 rounded-full bg-white text-black font-medium hover:scale-105 transition"
+    >
+      Probar Mango LIOFI
+    </a>
+
+  </div>
+
+</section>
 <section className="py-32 px-6 bg-[#FAF8F4]">
 
   <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-16 items-center">
