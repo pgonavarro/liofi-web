@@ -44,7 +44,7 @@ export default function Home() {
 
     {/* CTA */}
     <a
-      href="https://wa.me/5275020464?text=Hola%20quiero%20probar%20Mango%20LIOFI"
+      href="https://wa.me/525575020464?text=Hola%20quiero%20probar%20Mango%20LIOFI"
       className="mt-10 px-8 py-4 rounded-full bg-white text-black font-medium hover:scale-105 transition"
     >
       Probar Mango LIOFI
@@ -141,7 +141,7 @@ export default function Home() {
         </h2>
 
         <a
-          href="https://wa.me/5275020464?text=Hola%20quiero%20probar%20el%20mango%20liofilizado"
+          href="https://wa.me/525575020464?text=Hola%20quiero%20probar%20el%20mango%20liofilizado"
           className="inline-flex items-center justify-center rounded-full bg-black px-8 py-4 text-white font-medium transition hover:scale-105"
         >
           Hablar por WhatsApp
