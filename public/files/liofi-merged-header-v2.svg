@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1050 600" width="1050" height="600" font-family="sans-serif">
+<defs>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&amp;family=Fraunces:ital,wght@1,500;1,600&amp;family=IBM+Plex+Mono:wght@500&amp;display=swap');
+  </style>
+
+  <linearGradient id="g-amber" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#FFC772"/><stop offset="1" stop-color="#C8551B"/>
+  </linearGradient>
+  <linearGradient id="g-gold" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#FFD79A"/><stop offset="1" stop-color="#E08A2B"/>
+  </linearGradient>
+  <linearGradient id="g-rose" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#B0203B"/><stop offset="1" stop-color="#3A0E16"/>
+  </linearGradient>
+  <linearGradient id="g-deep" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#7A1424"/><stop offset="1" stop-color="#1C0508"/>
+  </linearGradient>
+  <linearGradient id="g-red-ribbon" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#D7263D"/><stop offset="1" stop-color="#8C1226"/>
+  </linearGradient>
+
+  <symbol id="lf-strawberry" viewBox="0 0 180 200">
+    <polygon points="78,18 90,55 102,18" fill="none" stroke="#FAF9F6" stroke-width="7" stroke-linejoin="round"/>
+    <polygon points="62,28 90,55 70,22" fill="none" stroke="#FAF9F6" stroke-width="7" stroke-linejoin="round"/>
+    <polygon points="118,28 90,55 110,22" fill="none" stroke="#FAF9F6" stroke-width="7" stroke-linejoin="round"/>
+    <polygon points="90,55 60,40 35,60 25,100 45,150 90,185 135,150 155,100 145,60 120,40"
+             fill="none" stroke="#FAF9F6" stroke-width="8" stroke-linejoin="round"/>
+    <polygon points="90,55 120,40 145,60 130,85" fill="#00C2A8"/>
+  </symbol>
+
+  <symbol id="lf-pineapple" viewBox="0 0 180 220">
+    <polygon points="90,75 60,30 75,10" fill="none" stroke="#FAF9F6" stroke-width="6" stroke-linejoin="round"/>
+    <polygon points="90,75 90,22 100,5" fill="none" stroke="#FAF9F6" stroke-width="6" stroke-linejoin="round"/>
+    <polygon points="90,75 120,30 105,10" fill="none" stroke="#FAF9F6" stroke-width="6" stroke-linejoin="round"/>
+    <polygon points="90,75 45,45 35,22" fill="none" stroke="#FAF9F6" stroke-width="6" stroke-linejoin="round"/>
+    <polygon points="90,75 135,45 145,22" fill="none" stroke="#FAF9F6" stroke-width="6" stroke-linejoin="round"/>
+    <polygon points="60,75 120,75 142,112 136,170 90,200 44,170 38,112"
+             fill="none" stroke="#FAF9F6" stroke-width="8" stroke-linejoin="round"/>
+    <g stroke="#FAF9F6" stroke-width="2.5" opacity="0.55">
+      <line x1="44" y1="170" x2="142" y2="112"/>
+      <line x1="38" y1="112" x2="136" y2="170"/>
+      <line x1="60" y1="75" x2="90" y2="200"/>
+      <line x1="120" y1="75" x2="90" y2="200"/>
+    </g>
+    <polygon points="90,140 119,123 136,141 119,170 90,170" fill="#00C2A8"/>
+  </symbol>
+
+  <symbol id="lf-mango" viewBox="0 0 180 210">
+    <line x1="95" y1="32" x2="92" y2="10" stroke="#FAF9F6" stroke-width="7"/>
+    <polygon points="92,16 118,8 104,28" fill="none" stroke="#FAF9F6" stroke-width="6" stroke-linejoin="round"/>
+    <polygon points="95,32 128,46 150,88 146,138 112,178 68,182 36,142 33,92 56,46"
+             fill="none" stroke="#FAF9F6" stroke-width="8" stroke-linejoin="round"/>
+    <polygon points="95,32 128,46 150,88 118,100" fill="#00C2A8"/>
+  </symbol>
+</defs>
+
+<!-- BACKGROUND: painterly warmth, rebuilt as faceted/crystalline geometry -->
+<rect x="0" y="0" width="1050" height="600" fill="#1C0508"/>
+<polygon points="0,0 480,0 0,420" fill="url(#g-amber)"/>
+<polygon points="480,0 1050,0 1050,260 640,180" fill="url(#g-gold)"/>
+<polygon points="0,420 480,0 330,600 0,600" fill="url(#g-rose)"/>
+<polygon points="1050,260 1050,600 560,600 640,180" fill="url(#g-deep)"/>
+<polygon points="380,600 670,600 525,330" fill="#14171A" opacity="0.45"/>
+<polygon points="900,0 1050,0 1050,95" fill="#00C2A8" opacity="0.16"/>
+<polygon points="0,0 100,0 0,80" fill="#00C2A8" opacity="0.12"/>
+
+<!-- WORDMARK — Fraunces SemiBold Italic, capital L: the flowing italic carries the emotion,
+     the crisp hexagon interrupting it carries the precision. Tech inside something handwritten. -->
+<g transform="translate(300,150)">
+  <text x="0" y="0" font-family="Fraunces, serif" font-style="italic" font-weight="600" font-size="118" fill="#FAF9F6">Lio</text>
+  <g transform="translate(222,-56) scale(0.40)">
+    <polygon points="100,20 169.28,60 169.28,140 100,180 30.72,140 30.72,60"
+             fill="none" stroke="#FAF9F6" stroke-width="11" stroke-linejoin="round"/>
+    <polygon points="100,100 100,20 169.28,60" fill="#FF4D5E"/>
+  </g>
+  <g transform="translate(296,0)">
+    <text x="0" y="0" font-family="Fraunces, serif" font-style="italic" font-weight="600" font-size="118" fill="#FAF9F6">fi</text>
+  </g>
+</g>
+
+<!-- RIBBON (torn edge, rebuilt as a crystalline zigzag) -->
+<polygon points="0,260 90,235 180,255 270,225 360,250 450,220 540,248 630,222 720,252 810,228 900,256 990,232 1050,250 1050,520 0,520"
+         fill="url(#g-red-ribbon)"/>
+
+<!-- TAGLINE -->
+<text x="525" y="300" text-anchor="middle" font-family="Fraunces, serif" font-style="italic" font-weight="500"
+      font-size="38" letter-spacing="3" fill="#FAF9F6">Delicias Liofilizadas</text>
+
+<!-- FRUIT ICON ROW — mango centered as hero (best yield + best profit% in the dataset) -->
+<use href="#lf-strawberry" x="135" y="335" width="125" height="139"/>
+<use href="#lf-mango" x="464" y="312" width="122" height="142"/>
+<use href="#lf-pineapple" x="792" y="320" width="116" height="142"/>
+
+<!-- INSTAGRAM + HANDLE -->
+<g transform="translate(70,548)">
+  <rect x="0" y="0" width="48" height="48" rx="14" fill="none" stroke="#FAF9F6" stroke-width="4"/>
+  <circle cx="24" cy="24" r="13" fill="none" stroke="#FAF9F6" stroke-width="4"/>
+  <circle cx="38" cy="10" r="3" fill="#FAF9F6"/>
+  <text x="62" y="33" font-family="Space Grotesk, sans-serif" font-weight="600" font-size="30" fill="#FAF9F6">@lio.fi</text>
+</g>
+
+<!-- HARVEST SWATCH STRIP (abstracted product range, replaces literal jar photo) -->
+<g transform="translate(660,556)">
+  <rect x="0" y="0" width="62" height="34" rx="6" fill="#F4A23A"/>
+  <rect x="74" y="0" width="62" height="34" rx="6" fill="#D7263D"/>
+  <rect x="148" y="0" width="62" height="34" rx="6" fill="#8FAE6E"/>
+  <rect x="222" y="0" width="62" height="34" rx="6" fill="#FFE08C"/>
+  <rect x="296" y="0" width="62" height="34" rx="6" fill="#7A2B45"/>
+  <text x="0" y="-12" font-family="IBM Plex Mono, monospace" font-size="13" letter-spacing="2" fill="#FAF9F6" opacity="0.7">COSECHA ACTUAL</text>
+</g>
+
+</svg>

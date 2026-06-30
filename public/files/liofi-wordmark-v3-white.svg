@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 150" width="520" height="150">
+  <text x="0" y="105" font-family="Fraunces, serif" font-style="italic" font-weight="600" font-size="100" fill="#FAF9F6">Lio</text>
+  <g transform="translate(190,47) scale(0.34)">
+    <polygon points="100,20 169.28,60 169.28,140 100,180 30.72,140 30.72,60"
+             fill="none" stroke="#FAF9F6" stroke-width="11" stroke-linejoin="round"/>
+    <polygon points="100,100 100,20 169.28,60" fill="#FF4D5E"/>
+  </g>
+  <text x="263" y="105" font-family="Fraunces, serif" font-style="italic" font-weight="600" font-size="100" fill="#FAF9F6">fi</text>
+</svg>
