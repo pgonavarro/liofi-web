@@ -17,6 +17,9 @@ export const metadata: Metadata = {
   title: "LIOFI",
   description:
     "México, capturado en su mejor momento.",
+    icons: {
+    icon: "/liofi-favicon.svg",
+  },
 };
 
 export default function RootLayout({
